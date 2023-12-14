@@ -1,0 +1,13 @@
+main{
+ intq x,y;
+ floatq a,w;
+ z=2;w=3.24;x=z+w*3-6;y=12;
+chaykamsa(z<=w){
+  sichus(i==1)
+    z=w;
+    i=2;
+    manachayqa
+	y=x;
+   end	
+}
+}

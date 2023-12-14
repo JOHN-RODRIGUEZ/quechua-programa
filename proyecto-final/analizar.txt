@@ -1,0 +1,51 @@
+
+
+
+
+funcq factorial(intq num){
+    sichus(num == 0){
+        returnq 1;
+    }
+    manachayqa{
+        returnq num * factorial(num-1)
+    }   
+}
+mainq(){
+
+intq[ ][] [  ] arr1 = newq intq[4][2][6];
+    intq num = 0;
+    floatq a = 1.5;
+arr1[1][1][1] = 0;
+arr1[arr1[1][1][1]][arr1[1][1][1]][arr1[1][1][1]] = 1000 ;
+ qawachy("-------------------------------");
+     qawachy("Posicion del arreglo 1 en la [1][1][1]: " + arr1[1][1][1]);
+qawachy("-------------------------------");
+    chaykama(num < 10){
+        qawachy(num)
+        
+        num = num + 1;
+    }
+qawachy("-------------------------------");    
+    num =9;
+    sichus(num==6)
+    {
+        qawachy(num);
+        qawachy(a);
+    }
+    manachayqa{
+        qawachy(chiqaq);
+       
+    }
+    qawachy("-------------------------------");
+    qawachy(5 + "Hola");
+    qawachy(5 + 3+234+324+34+3);
+    qawachy(-(500 + 32 - 600));
+    qawachy(-(500 - 600) == 100);
+    qawachy(! "7" == 7 && (100 == 10 + 90) );
+     qawachy("------------FUNCION-------------------");
+    qawachy("La suma de 500 + 100 es igual a: " + suma(500, 100))
+}
+
+funcq suma(intq a, intq b){
+    returnq a + b;
+}

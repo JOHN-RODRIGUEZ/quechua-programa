@@ -1,0 +1,174 @@
+ArbolSintactico
+└── <programa>
+    └── <lista_declaracion>
+        ├── <declaracion>
+        │   └── <declaracion_variable>
+        │       ├── <tipo>
+        │       │   └── intq
+        │       ├── <identificador>
+        │       │   └── x
+        │       ├── <identificador>
+        │       │   └── y
+        │       └── ;
+        ├── <declaracion>
+        │   └── <declaracion_variable>
+        │       ├── <tipo>
+        │       │   └── floatq
+        │       ├── <identificador>
+        │       │   └── a
+        │       ├── <identificador>
+        │       │   └── w
+        │       └── ;
+        └── <declaracion>
+            └── <lista_sentencias>
+                ├── <sentencia>
+                │   └── <asignacion>
+                │       ├── <identificador>
+                │       │   └── z
+                │       ├── <asignacion_op>
+                │       │   └── =
+                │       └── <sent_expresion>
+                │           ├── <expresion>
+                │           │   └── <expresion_simple>
+                │           │       └── <termino>
+                │           │           └── <factor>
+                │           │               └── <numero>
+                │           │                   └── 2
+                │           └── ;
+                ├── <sentencia>
+                │   └── <asignacion>
+                │       ├── <identificador>
+                │       │   └── w
+                │       ├── <asignacion_op>
+                │       │   └── =
+                │       └── <sent_expresion>
+                │           ├── <expresion>
+                │           │   └── <expresion_simple>
+                │           │       └── <termino>
+                │           │           └── <factor>
+                │           │               └── <numero>
+                │           │                   └── 3.24
+                │           └── ;
+                ├── <sentencia>
+                │   └── <asignacion>
+                │       ├── <identificador>
+                │       │   └── x
+                │       ├── <asignacion_op>
+                │       │   └── =
+                │       └── <sent_expresion>
+                │           ├── <expresion>
+                │           │   └── <expresion_simple>
+                │           │       ├── <termino>
+                │           │       │   └── <factor>
+                │           │       │       └── <identificador>
+                │           │       │           └── z
+                │           │       ├── <suma_op>
+                │           │       │   └── +
+                │           │       ├── <termino>
+                │           │       │   ├── <factor>
+                │           │       │   │   └── <identificador>
+                │           │       │   │       └── w
+                │           │       │   ├── <mult_op>
+                │           │       │   │   └── *
+                │           │       │   └── <factor>
+                │           │       │       └── <numero>
+                │           │       │           └── 3
+                │           │       ├── <suma_op>
+                │           │       │   └── -
+                │           │       └── <termino>
+                │           │           └── <factor>
+                │           │               └── <numero>
+                │           │                   └── 6
+                │           └── ;
+                ├── <sentencia>
+                │   └── <asignacion>
+                │       ├── <identificador>
+                │       │   └── y
+                │       ├── <asignacion_op>
+                │       │   └── =
+                │       └── <sent_expresion>
+                │           ├── <expresion>
+                │           │   └── <expresion_simple>
+                │           │       └── <termino>
+                │           │           └── <factor>
+                │           │               └── <numero>
+                │           │                   └── 12
+                │           └── ;
+                ├── <sentencia>
+                │   └── <asignacion>
+                │       └── <identificador>
+                │           └── chaykamsa
+                ├── <sentencia>
+                │   └── <asignacion>
+                │       └── <identificador>
+                │           └── z
+                ├── <sentencia>
+                │   └── <asignacion>
+                │       └── <identificador>
+                │           └── w
+                └── <sentencia>
+                    └── <seleccion>
+                        ├── sichus
+                        ├── <expresion>
+                        │   └── <expresion_simple>
+                        │       └── <termino>
+                        │           └── <factor>
+                        │               ├── (
+                        │               ├── <expresion>
+                        │               │   ├── <expresion_simple>
+                        │               │   │   └── <termino>
+                        │               │   │       └── <factor>
+                        │               │   │           └── <identificador>
+                        │               │   │               └── i
+                        │               │   ├── <relacion_op>
+                        │               │   │   └── ==
+                        │               │   └── <expresion_simple>
+                        │               │       └── <termino>
+                        │               │           └── <factor>
+                        │               │               └── <numero>
+                        │               │                   └── 1
+                        │               └── )
+                        ├── <sentencia>
+                        │   └── <asignacion>
+                        │       ├── <identificador>
+                        │       │   └── z
+                        │       ├── <asignacion_op>
+                        │       │   └── =
+                        │       └── <sent_expresion>
+                        │           ├── <expresion>
+                        │           │   └── <expresion_simple>
+                        │           │       └── <termino>
+                        │           │           └── <factor>
+                        │           │               └── <identificador>
+                        │           │                   └── w
+                        │           └── ;
+                        ├── <sentencia>
+                        │   └── <asignacion>
+                        │       ├── <identificador>
+                        │       │   └── i
+                        │       ├── <asignacion_op>
+                        │       │   └── =
+                        │       └── <sent_expresion>
+                        │           ├── <expresion>
+                        │           │   └── <expresion_simple>
+                        │           │       └── <termino>
+                        │           │           └── <factor>
+                        │           │               └── <numero>
+                        │           │                   └── 2
+                        │           └── ;
+                        ├── manachayqa
+                        │   └── <sentencia>
+                        │       └── <asignacion>
+                        │           ├── <identificador>
+                        │           │   └── y
+                        │           ├── <asignacion_op>
+                        │           │   └── =
+                        │           └── <sent_expresion>
+                        │               ├── <expresion>
+                        │               │   └── <expresion_simple>
+                        │               │       └── <termino>
+                        │               │           └── <factor>
+                        │               │               └── <identificador>
+                        │               │                   └── x
+                        │               └── ;
+                        └── end
